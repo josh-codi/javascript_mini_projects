@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    text-align: center;
+    background:ghostwhite;
+    font-family: Helvetica, Arial;
+}
+h1{
+    color: rgb(0, 21, 80);
+}
+button{
+    padding:1vh 2vh 1vh 2vh;
+    border-radius:8px;
+    border:none;
+    outline: none;
+    font-size: 1.3rem;
+    box-shadow: 0px 0px 3px 2px #6563c296;
+    color: #3232cc;
+    font-weight: bold;
+    background: transparent;
+    cursor:pointer;
+    transition:0.5s linear;
+}
+button:hover, button:focus{
+    box-shadow: 0px 0px 3px 2px #a463c296;
+    color: #9432cc;
+}
